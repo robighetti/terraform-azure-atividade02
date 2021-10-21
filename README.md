@@ -1,4 +1,4 @@
-# Terrafor activity
+# Terraform activity
 
 This repository is from an activity of the Software Engineering MBA .
 Team: Rodrigo Bighetti, Gian Matheus and Estevão Fekete
