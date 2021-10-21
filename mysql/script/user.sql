@@ -6,4 +6,4 @@ ALTER DATABASE mbadb
   DEFAULT CHARACTER SET utf8
   DEFAULT COLLATE utf8_general_ci;
 
-GRANT ALL PRIVILEGES ON mbauser.* TO 'mbauser'@'%' IDENTIFIED BY 'mbauser';
+GRANT ALL PRIVILEGES ON mbadb.* TO 'mbauser'@'%' IDENTIFIED BY 'mbauser';
