@@ -1,9 +1,9 @@
-CREATE USER IF NOT EXISTS 'petclinic'@'%' IDENTIFIED BY 'petclinic';
+CREATE USER IF NOT EXISTS 'mbauser'@'%' IDENTIFIED BY 'mbauser';
 
-CREATE DATABASE IF NOT EXISTS petclinic;
+CREATE DATABASE IF NOT EXISTS mbadb;
 
-ALTER DATABASE petclinic
+ALTER DATABASE mbadb
   DEFAULT CHARACTER SET utf8
   DEFAULT COLLATE utf8_general_ci;
 
-GRANT ALL PRIVILEGES ON petclinic.* TO 'petclinic'@'%' IDENTIFIED BY 'petclinic';
+GRANT ALL PRIVILEGES ON mbauser.* TO 'mbauser'@'%' IDENTIFIED BY 'mbauser';
